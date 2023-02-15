@@ -18,15 +18,33 @@
     text-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
 }
 
+@media screen and (min-width: $bp-desktop) {
+
+    .landing {
+        height: calc(100vh - 20px);
+    }
+
+}
+
 .landing p {
     max-width: 400px;
 }
+
 .seccion-botones {
     display: flex;
     flex-direction: column;
     gap: 12px;
     width: 100%;
     padding: 0 30px;
+}
+
+@media screen and (min-width: $bp-desktop) {
+
+    .seccion-botones {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
 }
 
 /* ANIMACIÓN PÁJAROS */
