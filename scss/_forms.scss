@@ -15,6 +15,12 @@
     height: 300px;
 }
 
+@media (max-height: 600px) and (min-width: 900px) {
+    .inputs {
+        height: 190px;
+    }
+}
+
 input[type="text"], input[type="email"], textarea {
     background-color: transparent;
     color: #7A731C;
