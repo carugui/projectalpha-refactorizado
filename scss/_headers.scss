@@ -13,7 +13,7 @@ h1,
     font-family: 'VT323', monospace;
     font-size: 60px;
     text-transform: uppercase;
-    color: #FC8455;
+    color: var(--color-orange);
 }
 
 h2,
@@ -21,7 +21,7 @@ h2,
     font-size: 26px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #5C7CD4;
+    color: var(--color-blue);
 }
 
 h3,
