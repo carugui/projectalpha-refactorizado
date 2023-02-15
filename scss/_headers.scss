@@ -1,0 +1,49 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    margin-bottom: 0.3em;
+}
+
+h1,
+.h1 {
+    font-family: 'VT323', monospace;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FC8455;
+}
+
+h2,
+.h2 {
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #5C7CD4;
+}
+
+h3,
+.h3 {
+    font-size: 23px;
+}
+
+h4,
+.h4 {
+    font-size: 20px;
+}
+
+h5,
+.h5 {
+    font-size: 18px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 18px;
+}
