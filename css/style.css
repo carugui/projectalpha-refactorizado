@@ -310,6 +310,11 @@ img[src="images/seccion-quien-soy-foto-personal.jpg"] {
      object-fit: cover;
 }
 
+@media screen and (min-width: 900px) {
+  img[src="images/seccion-quien-soy-foto-personal.jpg"] {
+    max-width: 490px;
+  }
+}
 img[src="images/carugui-logo-blanco.png"] {
   border-radius: 0;
   border-color: #FC8455;
@@ -325,6 +330,11 @@ img[src="images/carita-sonriente.png"] {
   margin-top: 20px;
 }
 
+@media screen and (min-width: 900px) {
+  img[src="images/carita-sonriente.png"] {
+    margin-right: 0;
+  }
+}
 .formulario {
   display: -webkit-box;
   display: -ms-flexbox;
