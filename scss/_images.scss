@@ -1,0 +1,32 @@
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 34px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 34px;
+}
+
+img[src="images/seccion-quien-soy-foto-personal.jpg"] {
+    max-width: 850px;
+    max-height: 570px;
+    object-fit: cover;
+}
+
+img[src="images/carugui-logo-blanco.png"] {
+    border-radius: 0;
+    border-color: #FC8455;
+    max-width: 800px;
+}
+
+img[src="images/carita-sonriente.png"] {
+    border-radius: 0;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
