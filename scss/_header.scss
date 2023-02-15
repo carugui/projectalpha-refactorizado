@@ -1,4 +1,4 @@
-.landing {
+header {
     background-color: #FCF3EB;
     background-image: url("../images/cielo-azul.jpg");
     background-repeat: no-repeat; 
@@ -20,13 +20,13 @@
 
 @media screen and (min-width: $bp-desktop) {
 
-    .landing {
+    header {
         height: calc(100vh - 20px);
     }
 
 }
 
-.landing p {
+header p {
     max-width: 400px;
 }
 
