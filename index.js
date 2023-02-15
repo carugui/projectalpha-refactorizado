@@ -1,8 +1,8 @@
 let mybutton = document.querySelector('#button-inicio');
-let mynav = document.querySelector('#nav');
-let mylogonav = document.querySelector('.svg-logo');
+let mytopbar = document.querySelector('#topbar');
+let mylogotopbar = document.querySelector('.svg-logo');
 
-window.onscroll = function() {scrollFunction(), scrollNav()};
+window.onscroll = function() {scrollFunction(), scrollTopbar()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
@@ -12,13 +12,13 @@ function scrollFunction() {
   }
 }
 
-function scrollNav() {
+function scrollTopbar() {
   if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-    mynav.classList.add('nav-green');
-    mylogonav.classList.add('svg-logo-green');
+    mytopbar.classList.add('topbar-green');
+    mylogotopbar.classList.add('svg-logo-green');
   } else {
-    mynav.classList.remove('nav-green');
-    mylogonav.classList.remove('svg-logo-green');
+    mytopbar.classList.remove('topbar-green');
+    mylogotopbar.classList.remove('svg-logo-green');
   }
 }
 
@@ -51,11 +51,11 @@ scrollContainer.addEventListener("wheel", botonInicioHorizontal)
 function botonInicioHorizontal() {
   if (document.querySelector('main').scrollLeft > 300) {
     mybutton.classList.add('show');
-    mynav.classList.add('nav-green-desktop');
-    mylogonav.classList.add('svg-logo-green');
+    mytopbar.classList.add('topbar-green-desktop');
+    mylogotopbar.classList.add('svg-logo-green');
   } else {
     mybutton.classList.remove('show');
-    mynav.classList.remove('nav-green-desktop');
-    mylogonav.classList.remove('svg-logo-green');
+    mytopbar.classList.remove('topbar-green-desktop');
+    mylogotopbar.classList.remove('svg-logo-green');
   }
 }

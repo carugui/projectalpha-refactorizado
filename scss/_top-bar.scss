@@ -1,4 +1,4 @@
-nav {
+.topbar {
     height: 65px;
     width: 100vw;
     z-index: 1000;
@@ -10,11 +10,11 @@ nav {
     transition: border-color .3s;
 }
 
-#nav.nav-green {
+#topbar.topbar-green {
     border-bottom: 3px solid #736A00;
     background-color: #FCF3EB;
 }
-#nav.nav-green-desktop {
+#topbar.topbar-green-desktop {
     border-bottom: 3px solid #736A00;
 }
 
