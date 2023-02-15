@@ -1,0 +1,27 @@
+a {
+    color: #FC8455;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+a:visited {
+    color: #7A731C;
+}
+
+a:hover {
+    text-decoration-thickness: 4px;
+}
+
+.links-rrss, .links-rrss a{
+    list-style-type: none;
+    padding: 0;
+    color: #5C7CD4;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color .8s;
+}
+
+.links-rrss a:hover {
+    color:#7A731D;
+}
