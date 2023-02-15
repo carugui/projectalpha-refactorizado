@@ -8,10 +8,22 @@ body {
   color: #736A00;
   font-weight: 400;
   padding: 0px;
-  background-color: #FCF3EB;
+  background-color: var(--background-color);
 }
 
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --color-green: #736A00;
+  --color-green-light: #C4DCAC;
+  --color-orange: #FC8455;
+  --color-blue: #5C7CD4;
+  --color-grey: #3A3A3A;
+  --color-cream: #FCF3EB;
+  /* Implementations */
+  --background-color: var(--color-cream);
 }
