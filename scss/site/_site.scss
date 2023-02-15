@@ -14,3 +14,46 @@ body {
 * {
     box-sizing: border-box;
 }
+
+.contenido {
+    margin: 0 0 50px;
+}
+
+.article-de-contenido {
+    margin: 0 5% 0;
+    padding-top: 20px;
+}
+
+#que-hago {
+    margin: 0;
+}
+
+.titulo-que-hago {
+    margin: 0 5% 0;
+}
+
+.contenedor-objetos-que-hago {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 35px;
+    margin-top: 20px;
+}
+
+.contenedor-objetos-que-hago article:first-child {
+    margin-left: 5%;
+}
+.contenedor-objetos-que-hago article:last-child {
+    margin-right: 5%;
+}
+
+.objeto-que-hago {
+    flex: 0 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.objeto-que-hago p {
+    flex: 1;
+}

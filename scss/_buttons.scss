@@ -38,3 +38,27 @@ button:hover,
     color: white;
     border: 3px solid white;
 }
+
+#button-inicio {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #FCF3EB;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#button-inicio.show {
+    opacity: 1;
+    visibility: visible;
+}

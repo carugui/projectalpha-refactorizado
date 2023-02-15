@@ -28,6 +28,62 @@ body {
           box-sizing: border-box;
 }
 
+.contenido {
+  margin: 0 0 50px;
+}
+
+.article-de-contenido {
+  margin: 0 5% 0;
+  padding-top: 20px;
+}
+
+#que-hago {
+  margin: 0;
+}
+
+.titulo-que-hago {
+  margin: 0 5% 0;
+}
+
+.contenedor-objetos-que-hago {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 35px;
+  margin-top: 20px;
+}
+
+.contenedor-objetos-que-hago article:first-child {
+  margin-left: 5%;
+}
+
+.contenedor-objetos-que-hago article:last-child {
+  margin-right: 5%;
+}
+
+.objeto-que-hago {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.objeto-que-hago p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 h1,
 h2,
 h3,
@@ -292,4 +348,75 @@ button:hover,
   background-color: transparent;
   color: white;
   border: 3px solid white;
+}
+
+#button-inicio {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 100%;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #FCF3EB;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+#button-inicio.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.landing {
+  background-color: #FCF3EB;
+  background-image: url("../images/cielo-azul.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-weight: 400;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 21px;
+  padding: 0 25px;
+  isolation: isolate;
+  text-shadow: 0px 0px 50px rgb(0, 0, 0);
+}
+
+.landing p {
+  max-width: 400px;
+}
+
+.seccion-botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  padding: 0 30px;
 }
