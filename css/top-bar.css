@@ -1,0 +1,43 @@
+nav {
+  height: 65px;
+  width: 100vw;
+  z-index: 1000;
+  position: fixed;
+  border-bottom: 3px solid white;
+  padding: 15px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: border-color 0.3s;
+  transition: border-color 0.3s;
+}
+
+#nav.nav-green {
+  border-bottom: 3px solid #736A00;
+  background-color: #FCF3EB;
+}
+
+#nav.nav-green-desktop {
+  border-bottom: 3px solid #736A00;
+}
+
+.svg-logo {
+  fill: #fff;
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+}
+
+.svg-logo-green {
+  fill: #736A00;
+}
+
+nav img {
+  max-height: 100%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
